@@ -1,0 +1,35 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    background-color: grey;
+    display: flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+
+.saludo {
+    max-width: 768px;
+    background-color: rgb(74, 63, 241);
+    padding: 3rem;
+    border-radius: 1rem;
+    color: white;
+    text-align: center;
+}
+
+.saludo h1 {
+    margin-top: 0;
+
+}
+
+.saludo button {
+    width: 100%;
+    border: none;
+    padding: 1rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    background-color: rgb(226, 23, 199);
+}
